@@ -10,7 +10,8 @@ public class Baralho {
     }
 
     public void embaralhar( ){
-        Random embaralhar = new Random();
+        Random random = new Random();
+        random.nextInt(cartas.length - 1);
     }
 
     public void darCartas() {}
