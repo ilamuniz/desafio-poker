@@ -1,12 +1,17 @@
+import java.util.Random;
+
 public class Baralho {
 
     private Carta[] cartas = new Carta[52];
 
     public Baralho(Carta[] cartas) {
-        this.cartas = cartas;
+        String[] numero = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+        String[] naipe = {"♣", "♠", "♥", "♦"};
     }
 
-    public void embaralhar( ){}
+    public void embaralhar( ){
+        Random embaralhar = new Random();
+    }
 
     public void darCartas() {}
 

@@ -18,14 +18,16 @@ c) temCarta( ) – verifica se tem carta no baralho, devolvendo true ou false. A
 
 d) imprimeBaralho( ) – imprime as cartas para verificar como estão dispostas (se estão embaralhadas por exemplo).
 
+Funcionamento:
+
 No inicio do programa, pergunte quantas jogadores possui na mesa, retorne duas cartas aleatórias para cada jogador
 
-Após isso, pergunte para cada jogador se ele quer abandonar a mão ou apostar, se apostar quanto ele aposta ?? repita esse processo até todos apostarem a mesma quantia
+Após isso, pergunte para cada jogador se ele quer abandonar a mão ou apostar, se apostar quanto ele aposta, repita esse processo até todos apostarem a mesma quantia
 
 Toda vez q alguém abandonar, reimprimir as mãos dos jogadores restante sem a mão do jogador que abandonou, (o dinheiro q ele já tiver apostado, deve continuar no montante)
 
-Assim, que todos os jogadores tiverem apostado a mesma quantia, imprima mais 5 cartas e pergunte quem ganhou ?
+Assim, que todos os jogadores tiverem apostado a mesma quantia, imprima mais 5 cartas e pergunte quem ganhou.
 
-Imprimir o número do jogador e quanto reais ele levou (soma de todas as apostas)
+Imprimir o número do jogador e quanto reais ele levou (soma de todas as apostas).
 
-Adicione um bloco try/catch para validar se o número de participantes é maior do que um, se for igual ou menor, deve lançar uma exception e ser pega pelo try/catch
+Adicione um bloco try/catch para validar se o número de participantes é maior do que um, se for igual ou menor, deve lançar uma exception e ser pega pelo try/catch.
